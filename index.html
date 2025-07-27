@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>To my heart aysha</title>
+    <link rel="stylesheet" href="design css/style.css" />
+</head>
+
+<body>
+    <div class="prompt" id="step1">
+        <p>hello queen aysha today I'm gonna ask two very very important questions.<br />Are you ready?</p>
+        <div class="buttons">
+            <button onclick="goToStep2()">Ready</button>
+        </div>
+    </div>
+
+    <div class="prompt hidden" id="step2">
+        <p>do you know that basel loves you very very very much<br />to the point he could die for you?</p>
+        <div class="buttons">
+            <button onclick="showConfirm()">yes</button>
+            <button onclick="showConfirm()">أكيد yes هبلة انتي؟</button>
+        </div>
+    </div>
+
+    <div class="prompt hidden" id="confirm1">
+        <p>That's correct princess. Are you ready for the next question?</p>
+        <div class="buttons">
+            <button onclick="goToStep3()">Ready</button>
+        </div>
+    </div>
+
+    <div class="prompt hidden" id="step3">
+        <p>do you love basel ?</p>
+        <div class="buttons">
+            <button onclick="startLove()">Yes</button>
+            <button onclick="startLove()">Yes²</button>
+        </div>
+    </div>
+
+    <div class="container hidden" id="loveContainer">
+        <div class="line left-line"></div>
+        <h1 class="text" id="text">
+            <span class="letter">I</span>
+            <span class="space"> </span>
+            <span class="letter">L</span>
+            <span class="letter">O</span>
+            <span class="letter">V</span>
+            <span class="letter">E</span>
+            <span class="space"> </span>
+            <span class="letter">Y</span>
+            <span class="letter">O</span>
+            <span class="letter">U</span>
+            <span class="space"> </span>
+            <span class="letter">M</span>
+            <span class="letter">O</span>
+            <span class="letter">R</span>
+            <span class="letter">E</span>
+            <span class="space"> </span>
+            <span class="letter">M</span>
+            <span class="letter">Y</span>
+            <span class="space"> </span>
+            <span class="letter">P</span>
+            <span class="letter">R</span>
+            <span class="letter">I</span>
+            <span class="letter">N</span>
+            <span class="letter">C</span>
+            <span class="letter">E</span>
+            <span class="letter">S</span>
+            <span class="letter">S</span>
+            <span class="heart">❤️</span>
+        </h1>
+        <div class="line right-line"></div>
+        <div class="flowers hidden" id="flowers">🌸🌷🌹🌼🌺💐</div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@mojs/core"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
